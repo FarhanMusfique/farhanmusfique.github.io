@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan Musfique</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body id="blog">
+      {% include navbar.html %}
+      <div class="container">
+          <div class="header">
+            <h1>Debating Arena</h1>
+            <div class="row">
+              <div class="col-md-8 offset-md-2" style="font-size: 14px;">
+                <p>This arena is for everyone who loves debating & wants to become a debater. Here I will write & share resources for them to learn debates step by step. Sometimes I will invite guest writers to write here. So it is going to be vast & a most helpful thing for any debater. 
+                </p>
+                <p>Why this? I also asked myself when this idea came to my mind. Debating is one of the lovely things people want to start with. I saw so many Kids with their debating enthusiasms but many times they just stopped debating & fell behind for their financial problems. Those kids cant manage a paid coach or resources that will help them to advance in this world. So I started this for them. I will provide the resources to develop themselves without them spending a single penny. Hope they will conquer the obstacles & achieve success.</p>    
+              </div>
+            </div>
+          </div>
+          {% for post in site.categories.debatearena %}
+            {% if post.url %}
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <h1><a href="{{ post.url }}">{{post.title}}</a></h1>
+                <small>{{ post.date | date_to_long_string }}</small>
+                <p>{{ post.excerpt }}</p>
+              </div>
+            </div>
+            {% endif %}
+          {% endfor %}
+      </div>
+      {% include footer.html %}
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

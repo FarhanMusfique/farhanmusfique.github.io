@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;600;700&display=swap');
+body{
+    background-color: #000;
+    color: #eeeeee;
+    font-family: 'Spartan', sans-serif;
+}
+.navbar a, .navbar  a:hover, .navbar a:focus{
+    color: white !important;
+}
+.navbar{
+    padding: 20px 60px;
+    background-color: black;
+}
+.navbar-brand{
+    font-weight: 700;
+}
+
+.hl-pink{
+    color: #d810d8;
+}
+
+#home .container{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#home .container h1{
+    font-weight: 700;
+}
+#home .container h1 span{
+    font-size: 18px;
+}
+#home .container .socials a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#home .container .socials a svg{
+    height: 38px;
+    width: 38px;
+}
+
+
+#works .container{
+    margin-top: 40px;
+}
+#works .container h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+#works .container p{
+    font-size: 14px;
+}
+#works .container .row{
+    margin-bottom: 40px;
+}
+#works .container p.full{
+    font-size: 14px;
+    color: #868e96;
+}
+
+#blog .container{
+    margin-bottom: 40px;
+}
+#blog .container a{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+#blog .header h1{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+}
+#blog p.date{
+    color: #868e96;
+}
+
+
+#post .container{
+    padding: 40px 0;
+}
+#post p.date{
+    color: #868e96;
+}
+#post h1{
+    font-weight: 700;
+    font-size: 28px;
+}
+#post a{
+    color: white;
+}

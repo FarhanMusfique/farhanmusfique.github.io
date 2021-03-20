@@ -1,0 +1,4 @@
+---
+layout: debate
+permalink: /debate/
+---

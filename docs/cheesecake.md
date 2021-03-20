@@ -1,0 +1,4 @@
+---
+layout: cheesecake
+permalink: /cheesecake/
+---

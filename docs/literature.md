@@ -1,0 +1,4 @@
+---
+layout: lit
+permalink: /literature/
+---
