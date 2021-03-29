@@ -4,6 +4,7 @@ body{
     color: #eeeeee;
     font-family: 'Spartan', sans-serif;
 }
+
 .navbar a, .navbar  a:hover, .navbar a:focus{
     color: white !important;
 }
@@ -88,4 +89,8 @@ body{
 }
 #post a{
     color: white;
+}
+#post img{
+    max-width: 100%;
+    height: auto;
 }
